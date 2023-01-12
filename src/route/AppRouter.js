@@ -29,13 +29,13 @@ function AppRouter() {
           <Route path="/mirzagalib" element={<MirzaGalib />} />
         </Routes>
         <Routes>
-          <Route path="/Nusrat" element={<Nusrat />} />
+          <Route path="/nusrat" element={<Nusrat />} />
         </Routes>
         <Routes>
-          <Route path="/Coke-Studio" element={<Cokestudio />} />
+          <Route path="/coke-studio" element={<Cokestudio />} />
         </Routes>
         <Routes>
-          <Route path="/Shayari" element={<Shayari />} />
+          <Route path="/shayari" element={<Shayari />} />
         </Routes>
       </HashRouter>
     </div>
