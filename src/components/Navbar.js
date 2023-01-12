@@ -41,12 +41,12 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/mohsinnaqvi">
+              <a className="nav-link" href="/musab/mohsinnaqvi">
                 Mohsin Naqvi
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/mirzagalib">
+              <a className="nav-link" href="/musab/mirzagalib">
                 Mirza Galib
               </a>
             </li>

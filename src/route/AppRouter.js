@@ -12,7 +12,7 @@ import Shayari from "../pages/Shayari";
 function AppRouter() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="musab">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
@@ -20,7 +20,7 @@ function AppRouter() {
           <Route path="/about" element={<About />} />
         </Routes>
         <Routes>
-          <Route path="/musab/jaunelia" element={<Jaunelia />} />
+          <Route path="/jaunelia" element={<Jaunelia />} />
         </Routes>
         <Routes>
           <Route path="/mohsinnaqvi" element={<Mohsinnaqvi />} />
