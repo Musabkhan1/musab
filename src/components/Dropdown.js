@@ -8,11 +8,11 @@ function BasicExample() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/nusrat">Nusrat Fateh Ali</Dropdown.Item>
+        <Dropdown.Item href="#/nusrat">Nusrat Fateh Ali</Dropdown.Item>
         {/* <Dropdown.Item href="#/action-2">Rahat Fateh Ali</Dropdown.Item> */}
-        <Dropdown.Item href="/coke-studio">Coke Studio</Dropdown.Item>
+        <Dropdown.Item href="#/coke-studio">Coke Studio</Dropdown.Item>
         {/* <Dropdown.Item href="#/action-2">Gazal</Dropdown.Item> */}
-        <Dropdown.Item href="/shayari">Shayari</Dropdown.Item>
+        <Dropdown.Item href="#/shayari">Shayari</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

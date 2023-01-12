@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Jaunelia from "../pages/Jaunelia";
@@ -12,7 +12,7 @@ import Shayari from "../pages/Shayari";
 function AppRouter() {
   return (
     <div>
-      <BrowserRouter basename="musab">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
@@ -37,7 +37,7 @@ function AppRouter() {
         <Routes>
           <Route path="/Shayari" element={<Shayari />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
