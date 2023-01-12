@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark justify-content-between">
-        <a className="navbar-brand mx-5" href="/musab">
+        <a className="navbar-brand mx-5" href="#/">
           Wednesday
         </a>
         <button
@@ -26,7 +26,7 @@ function Navbar() {
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/musab">
+              <a className="nav-link" href="#/">
                 Home
               </a>
             </li>
