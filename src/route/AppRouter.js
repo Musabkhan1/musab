@@ -20,7 +20,7 @@ function AppRouter() {
           <Route path="/about" element={<About />} />
         </Routes>
         <Routes>
-          <Route path="/jaunelia" element={<Jaunelia />} />
+          <Route path="/musab/jaunelia" element={<Jaunelia />} />
         </Routes>
         <Routes>
           <Route path="/mohsinnaqvi" element={<Mohsinnaqvi />} />

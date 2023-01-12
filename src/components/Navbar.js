@@ -36,7 +36,7 @@ function Navbar() {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="/jaunelia">
+              <a className="nav-link" href="/musab/jaunelia">
                 Jaun Elia
               </a>
             </li>
